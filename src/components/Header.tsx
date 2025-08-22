@@ -8,7 +8,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="py-6 bg-transparent relative overflow-hidden">
+    <header className="py-8 md:py-6 bg-transparent relative overflow-hidden">
       <div className="container flex justify-between items-center">
         <Link href="/" className="flex items-center relative z-10">
           <div className="relative flex items-center">
@@ -17,20 +17,21 @@ export default function Header() {
               alt="WebForte"
               width={150}
               height={50}
-              className="h-10 md:h-12 w-auto bg-transparent"
+              className="h-14 md:h-12 w-auto bg-transparent"
               style={{ backgroundColor: "transparent" }}
             />
           </div>
         </Link>
 
-        <div className="md:hidden relative z-20">
+        <div className="block min-[1025px]:hidden relative z-20">
+          {/*  Hamburger Icon  */}
           <button
-            className="text-gray-700 focus:outline-none"
+            className="text-gray-700 focus:outline-none h-10 w-10 flex items-center justify-center"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
+              className="h-10 w-10 cursor-pointer"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -59,16 +60,17 @@ export default function Header() {
             isMenuOpen
               ? "fixed inset-0 bg-white z-50 flex flex-col items-center justify-center space-y-6 text-xl"
               : "hidden"
-          } md:relative md:flex md:items-center md:space-x-8 md:z-10`}
+          } min-[1025px]:relative min-[1025px]:flex min-[1025px]:items-center min-[1025px]:space-x-8 min-[1025px]:z-10`}
         >
           {isMenuOpen && (
+            // Close button
             <button
-              className="absolute top-6 right-6 text-gray-700 focus:outline-none"
+              className="absolute top-6 right-6 text-gray-700 focus:outline-none h-10 w-10 flex items-center justify-center"
               onClick={() => setIsMenuOpen(false)}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
+                className="h-10 w-10 cursor-pointer"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -124,7 +126,7 @@ export default function Header() {
 
         <Link
           href="/konzultace"
-          className="hidden md:flex bg-primary text-white px-6 py-3 rounded-full font-medium hover:bg-primary-dark transition-colors items-center"
+          className="hidden min-[1025px]:flex bg-primary text-white px-6 py-3 rounded-xl font-bold hover:bg-primary-dark transition-colors items-center"
         >
           <span className="mr-2">Bezplatná konzultace</span>
           <svg
