@@ -104,10 +104,10 @@ export default function Header() {
             Automatizace
           </Link>
           <Link
-            href="/ai-reseni"
+            href="/marketing"
             className='text-gray-700 hover:text-primary after:content-[""] after:block after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full'
           >
-            AI řešení
+            Marketing
           </Link>
           <Link
             href="/pripadove-studie"

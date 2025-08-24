@@ -140,7 +140,7 @@ export default function HeroSection() {
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="lg:w-1/2 relative order-2 lg:order-1">
             <div className="relative z-10 space-y-6 md:space-y-8">
-              <div className="rotate-badge bg-accent text-primary  rounded-full inline-block font-medium px-3 py-1.5 text-xs sm:text-sm ">
+              <div className="rotate-badge bg-accent text-primary rounded-full inline-block font-medium px-3 py-1.5 text-xs sm:text-sm cursor-pointer">
                 Inovace pro vaše podnikání
               </div>
               <h1 className="max-w-[24ch] sm:max-w-none text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
@@ -261,8 +261,8 @@ export default function HeroSection() {
                   />
                   <text className="text-xs font-medium text-primary opacity-50">
                     <textPath xlinkHref="#curve" startOffset="10%">
-                      automatizace • strojové učení • neuronové sítě • umělá
-                      inteligence • data science • prediktivní analýza •
+                      automatizace • marketing • AI • webovky • SEO • správa
+                      e-shopů •
                     </textPath>
                   </text>
                 </svg>

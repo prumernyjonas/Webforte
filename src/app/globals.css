@@ -4,9 +4,9 @@
 :root {
   --background: #f2f2f2;
   --foreground: #171717;
-  --primary: #1f1c80;
-  --primary-dark: #1a1870;
-  --secondary: #3935a1;
+  --primary: #262389;
+  --primary-dark: #1e1a6b;
+  --secondary: #4f46e5;
   --accent: #c5ccff;
   --curve-height: 120px;
 
@@ -43,8 +43,8 @@
   :root {
     --background: #f2f2f2;
     --foreground: #171717;
-    --primary: #1f1c80;
-    --secondary: #3935a1;
+    --primary: #262389;
+    --secondary: #4f46e5;
     --accent: #c5ccff;
   }
 }
@@ -857,7 +857,7 @@ body {
 /* High Contrast Mode Support */
 @media (prefers-contrast: high) {
   :root {
-    --primary: #000080;
+    --primary: #262389;
     --secondary: #000060;
     --accent: #0000ff;
     --background: #ffffff;

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function AIServicesSection() {
   return (
-    <section className="py-16 md:py-28 relative overflow-hidden curved-section bg-[#EEF2FF]">
+    <section className="py-16 md:py-28 relative overflow-hidden curved-section bg-[#f8fafc]">
       {/* Top fade */}
       <div
         className="pointer-events-none absolute inset-x-0 top-0 h-20 md:h-28 bg-[radial-gradient(120%_70%_at_50%_0%,#ffffff_0%,rgba(255,255,255,0.9)_40%,rgba(255,255,255,0)_100%)]"
@@ -11,13 +11,13 @@ export default function AIServicesSection() {
       <div className="container relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16 md:mb-20">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            Objevte sílu <span className="gradient-text">AI řešení</span> na
+            Objevte sílu <span className="gradient-text">automatizace</span> na
             míru
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            Naše pokročilé technologie kombinují umělou inteligenci a
-            automatizaci pro vytvoření řešení, která výrazně zvyšují
-            produktivitu a efektivitu vašeho podnikání.
+            Naše pokročilé technologie kombinují automatizaci, marketing a AI
+            pro vytvoření řešení, která výrazně zvyšují produktivitu a
+            efektivitu vašeho podnikání.
           </p>
         </div>
 
@@ -43,9 +43,9 @@ export default function AIServicesSection() {
 
           {/* Service cards – unified light design */}
           <ul className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 relative z-20">
-            {/* Card 1 */}
+            {/* Card 1 - Automatizace */}
             <li>
-              <article className="group flex h-full flex-col rounded-xl border border-slate-200 bg-white p-6 md:p-8 shadow-card hover:shadow-[0_12px_30px_rgba(15,23,42,0.08)] transition-shadow">
+              <article className="group flex h-full flex-col rounded-xl border border-slate-200 bg-white p-6 md:p-8 shadow-card hover:shadow-[0_12px_30px_rgba(38,35,137,0.08)] transition-shadow">
                 <header className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center transition-colors group-hover:bg-primary/15">
                     <svg
@@ -97,7 +97,7 @@ export default function AIServicesSection() {
               </article>
             </li>
 
-            {/* Card 2 */}
+            {/* Card 2 - Marketing */}
             <li>
               <article className="group flex h-full flex-col rounded-xl border border-slate-200 bg-white p-6 md:p-8 shadow-card hover:shadow-[0_12px_30px_rgba(15,23,42,0.08)] transition-shadow">
                 <header className="flex items-center gap-3">
@@ -211,7 +211,7 @@ export default function AIServicesSection() {
         <div className="mt-24 md:mt-28">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
             <div>
-              <div className="rotate-badge bg-accent text-primary px-4 py-2 rounded-full inline-block font-medium mb-4">
+              <div className="rotate-badge bg-accent text-primary px-4 py-2 rounded-full inline-block font-medium mb-4 cursor-pointer">
                 Náš proces
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -241,7 +241,7 @@ export default function AIServicesSection() {
                     <p className="text-gray-600 leading-relaxed mt-1">
                       Začínáme důkladnou analýzou vašich potřeb a procesů. Naši
                       specialisté identifikují oblasti, kde můžete nejvíce těžit
-                      z implementace AI a automatizačních řešení.
+                      z implementace automatizace a marketingových řešení.
                     </p>
                   </div>
                 </li>
@@ -254,9 +254,9 @@ export default function AIServicesSection() {
                       Vývoj na míru
                     </h3>
                     <p className="text-gray-600 leading-relaxed mt-1">
-                      Vytváříme řešení přesně podle vašich potřeb. Naše AI
-                      systémy se přizpůsobí vašim existujícím procesům a
-                      integrují se s vašimi stávajícími technologiemi.
+                      Vytváříme řešení přesně podle vašich potřeb. Naše systémy
+                      se přizpůsobí vašim existujícím procesům a integrují se s
+                      vašimi stávajícími technologiemi.
                     </p>
                   </div>
                 </li>

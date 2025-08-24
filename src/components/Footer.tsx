@@ -18,8 +18,9 @@ export default function Footer() {
               />
             </div>
             <p className="text-gray-600 max-w-md">
-              Pomáháme tvořit váš hodnotnou webovou stránku s cílem generovat
-              lepší výsledky, konverze a poskytnout vám návratnost investice.
+              Pomáháme firmám automatizovat procesy a optimalizovat workflow s
+              cílem generovat lepší výsledky, konverze a poskytnout vám
+              návratnost investice.
             </p>
             <div className="flex space-x-4 mt-6">
               <a
@@ -74,26 +75,26 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/automatizace"
+                  className="text-gray-600 hover:text-primary"
+                >
+                  Automatizace
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/marketing"
+                  className="text-gray-600 hover:text-primary"
+                >
+                  Marketing
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/kontakt"
                   className="text-gray-600 hover:text-primary"
                 >
                   Kontakt
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/ochrana-osobnich-udaju"
-                  className="text-gray-600 hover:text-primary"
-                >
-                  Ochrana osobních údajů
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/ochrana-osobnich-udaju"
-                  className="text-gray-600 hover:text-primary"
-                >
-                  Právní ujednání
                 </Link>
               </li>
             </ul>
@@ -151,7 +152,7 @@ export default function Footer() {
         </div>
 
         <div className="text-center text-gray-500 text-sm border-t border-gray-300 pt-6">
-          <p>© 2025 Webforte | Všechna práva vyhrazena</p>
+          <p>© 2025 Webforte.cz | Všechna práva vyhrazena</p>
         </div>
       </div>
     </footer>
